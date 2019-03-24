@@ -1,0 +1,64 @@
+.myForm{
+    border: 1px solid black;
+    width: 500px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 20px 10px;
+}
+form > div{
+    margin-bottom: 10px;
+}
+form > div > span{
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+input[type="text"] , input[type="password"] , select, textarea{
+    background-color: #FEE3AE;
+}
+.submit-box input{
+    display: block;
+    margin: 0 auto;
+}
+.left-container{
+    width: 10%;
+    float:left;
+}
+.right-container{
+    width: 80%;
+    float: left;
+    padding-left: 30px;
+}
+body{
+    font-size: 1.1em;
+}
+.myForm > form{
+    overflow: auto;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul >li{
+    margin-bottom: 10px;
+}
+.left-container > div{
+    margin: 30px 20px;
+}
+.left-container{
+    height: 700px;
+    border-right: 1px solid black;
+}
+input[type="submit"]{
+    font-size: 17px;
+    margin-top: 30px;
+    width: 200px;
+}
+table{
+    margin-bottom: 20px;
+}
+td{
+    border: 1px solid black;
+    padding: 5px;
+    width: 200px;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<web-app>
+    
+    <security-constraint>
+      <web-resource-collection>
+         <web-resource-name>CSV</web-resource-name>
+         <url-pattern>/index.jsp</url-pattern>
+         <http-method>GET</http-method>
+      </web-resource-collection>
+
+      <auth-constraint>
+         <role-name>registered-user</role-name>
+      </auth-constraint>
+   </security-constraint>
+   
+   
+   <login-config>
+      <auth-method>BASIC</auth-method>
+      <realm-name>Authorized Users Only</realm-name>
+   </login-config>
+   
+</web-app>
